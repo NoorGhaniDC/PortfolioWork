@@ -17,18 +17,6 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-/* ****************************************************************
- * 
- * Except for changing the below namespace
- * 
- * DO NO EDIT THIS FILE UNLESS PROFESSOR TELLS YOU TO UPDATE IT 
- * 
- * If you neeed to add things to this class, create a second file 
- * with the same namespace and same public static partial class BS 
- * declaration....  (research partial classes)
- * 
- *************************************************************** */
-
 namespace Assignment2
 {
     public static partial class BS
