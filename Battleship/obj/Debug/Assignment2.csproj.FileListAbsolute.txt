@@ -1,0 +1,13 @@
+C:\Docs\COSC-2100\Repo\COSC2100\COSC2100\Assignment2\bin\Debug\Assignment2.exe.config
+C:\Docs\COSC-2100\Repo\COSC2100\COSC2100\Assignment2\bin\Debug\Assignment2.exe
+C:\Docs\COSC-2100\Repo\COSC2100\COSC2100\Assignment2\bin\Debug\Assignment2.pdb
+C:\Docs\COSC-2100\Repo\COSC2100\COSC2100\Assignment2\obj\Debug\Assignment2.csproj.AssemblyReference.cache
+C:\Docs\COSC-2100\Repo\COSC2100\COSC2100\Assignment2\obj\Debug\Assignment2.frmMain.resources
+C:\Docs\COSC-2100\Repo\COSC2100\COSC2100\Assignment2\obj\Debug\Assignment2.Properties.Resources.resources
+C:\Docs\COSC-2100\Repo\COSC2100\COSC2100\Assignment2\obj\Debug\Assignment2.csproj.GenerateResource.cache
+C:\Docs\COSC-2100\Repo\COSC2100\COSC2100\Assignment2\obj\Debug\Assignment2.csproj.CoreCompileInputs.cache
+C:\Docs\COSC-2100\Repo\COSC2100\COSC2100\Assignment2\obj\Debug\Assignment2.exe
+C:\Docs\COSC-2100\Repo\COSC2100\COSC2100\Assignment2\obj\Debug\Assignment2.pdb
+C:\Docs\COSC-2100\Repo\COSC2100\COSC2100\Assignment2\bin\Debug\Something being hit - Sound Effect.wav
+C:\Docs\COSC-2100\Repo\COSC2100\COSC2100\Assignment2\bin\Debug\Nope sound effect.wav
+C:\Docs\COSC-2100\Repo\COSC2100\COSC2100\Assignment2\bin\Debug\Microsoft Windows 3.1 Startup Sound.wav
