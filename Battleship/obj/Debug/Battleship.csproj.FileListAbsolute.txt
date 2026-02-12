@@ -1,0 +1,13 @@
+C:\Docs\PortfolioRepo\PortfolioWork\Battleship\bin\Debug\Microsoft Windows 3.1 Startup Sound.wav
+C:\Docs\PortfolioRepo\PortfolioWork\Battleship\bin\Debug\Nope sound effect.wav
+C:\Docs\PortfolioRepo\PortfolioWork\Battleship\bin\Debug\Something being hit - Sound Effect.wav
+C:\Docs\PortfolioRepo\PortfolioWork\Battleship\bin\Debug\Assignment2.exe.config
+C:\Docs\PortfolioRepo\PortfolioWork\Battleship\bin\Debug\Assignment2.exe
+C:\Docs\PortfolioRepo\PortfolioWork\Battleship\bin\Debug\Assignment2.pdb
+C:\Docs\PortfolioRepo\PortfolioWork\Battleship\obj\Debug\Battleship.csproj.AssemblyReference.cache
+C:\Docs\PortfolioRepo\PortfolioWork\Battleship\obj\Debug\Assignment2.frmMain.resources
+C:\Docs\PortfolioRepo\PortfolioWork\Battleship\obj\Debug\Assignment2.Properties.Resources.resources
+C:\Docs\PortfolioRepo\PortfolioWork\Battleship\obj\Debug\Battleship.csproj.GenerateResource.cache
+C:\Docs\PortfolioRepo\PortfolioWork\Battleship\obj\Debug\Battleship.csproj.CoreCompileInputs.cache
+C:\Docs\PortfolioRepo\PortfolioWork\Battleship\obj\Debug\Assignment2.exe
+C:\Docs\PortfolioRepo\PortfolioWork\Battleship\obj\Debug\Assignment2.pdb
