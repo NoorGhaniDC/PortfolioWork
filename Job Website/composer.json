@@ -1,0 +1,15 @@
+{
+  "name": "vendor_name/GitRepo",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "ghani",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "ext-xdebug": "*"
+  }
+}
