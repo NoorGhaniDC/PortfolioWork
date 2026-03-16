@@ -5,7 +5,6 @@ Description:
 A flutter mobile application that is used to track workouts.
 
 Technologies:
-
 - Flutter
 - Dart
 - Android Studio
@@ -13,7 +12,6 @@ Technologies:
 - Git
 
 Features:
-
 - Log and track workouts to user profile.
 - Create and customize profile.
 - Generates workouts based on user profile.
