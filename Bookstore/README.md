@@ -1,4 +1,4 @@
-Boostore
+Bookstore
 
 Description:
 
