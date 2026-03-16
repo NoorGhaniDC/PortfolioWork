@@ -7,6 +7,7 @@ A containerized web application that allows users to add and browse job listings
 Technologies:
 - PHP
 - Laravel
+- Blade
 - Docker
 - PostgreSQL
 - Git
