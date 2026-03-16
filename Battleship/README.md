@@ -1,7 +1,8 @@
 
 Battleship
 
-Description
+Description:
+
 This application is a single player version of Battleship built in C#.
 
 Technologies
