@@ -1,3 +1,6 @@
+This is a project was developed by Noor Ghani and Buianto Sodnomov for INFT-3102 during the Fall 2025 semester at Durham College. It is a Next.js Bookstore project with authentication through JWT and is using the Contentful API.
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
 
 ## Getting Started
