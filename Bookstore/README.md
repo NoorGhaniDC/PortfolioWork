@@ -4,21 +4,21 @@ Description:
 
 A web application that allows users to browse and manage bookstore inventory.
 
-Technologies
+Technologies:
 - Next.js
 - React
 - JavaScript
 - Contentful
 - Git
 
-Features
+Features:
 - Book listing
 - Dynamic search
 - UI components
 - State management
 
 
-Author
+Authors:
 Noor Ghani & Buianto Sodnomov
 
 
