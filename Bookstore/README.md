@@ -1,6 +1,7 @@
 Boostore
 
-Description
+Description:
+
 A web application that allows users to browse and manage bookstore inventory.
 
 Technologies
