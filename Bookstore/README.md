@@ -1,4 +1,28 @@
-This is a project was developed by Noor Ghani and Buianto Sodnomov for INFT-3102 during the Fall 2025 semester at Durham College. It is a Next.js Bookstore project with authentication through JWT and is using the Contentful API.
+Boostore
+
+Description
+A web application that allows users to browse and manage bookstore inventory.
+
+Technologies
+- Next.js
+- React
+- JavaScript
+- Contentful
+- Git
+
+Features
+- Book listing
+- Dynamic search
+- UI components
+- State management
+
+
+Author
+Noor Ghani & Buianto Sodnomov
+
+
+
+This is a project was developed by Noor Ghani and Buianto Sodnomov for INFT-3102 during the Fall 2025 semester at Durham College.
 
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
