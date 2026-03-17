@@ -8,10 +8,10 @@ C#, JavaScript, React, Next.js, SQL, Firebase, PHP, & Laravel.
 
 Current Uploaded Projects:
 
-Bookstore Web Application
+Bookstore Web Application (Next.js, React, Contentful)
 
-Battleship Game
+Battleship Game (C#)
 
-FitTrack Mobile App
+FitTrack Mobile App (Flutter, Dart, Firebase)
 
-Jobs Website
+Jobs Website (Tailwind, Laravel, PHP, PostgreSQL)
