@@ -1,43 +1,148 @@
-This is a project was developed by Noor Ghani and Buianto Sodnomov for INFT-3102 during the Fall 2025 semester at Durham College. It is a Next.js Bookstore project with authentication through JWT and is using the Contentful API.
+# Bookstore Application
+
+A modern e-commerce bookstore built with Next.js, featuring JWT authentication, Contentful CMS integration, and a rich product catalog.
+
+**Developers:** Noor Ghani, Buianto Sodnomov  
+**Course:** INFT-3102  
+**Academic Year:** Fall 2025  
+**Institution:** Durham College
 
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+## Overview
+
+This is a full-featured bookstore application built with [Next.js](https://nextjs.org). It integrates with the Contentful headless CMS for content management and implements JWT-based authentication for secure user sessions. The application provides a seamless shopping experience with product browsing, filtering, and user account management.
+
+## Technology Stack
+
+- **Frontend:** Next.js 16 with React 19
+- **Authentication:** JWT (JSON Web Tokens) with bcryptjs
+- **CMS:** Contentful (Headless CMS)
+- **Styling:** CSS Modules
+- **Build Tool:** Webpack, ESLint
+
+## Features
+
+- 🔐 **User Authentication:** JWT-based login/registration system
+- 📚 **Product Catalog:** Browse and search books from Contentful
+- 🎨 **Rich Product Details:** Dynamic product pages with detailed information
+- 🔗 **Content Management:** Powered by Contentful API
+- 📱 **Responsive Design:** Mobile-friendly interface
+- 🛡️ **Secure Sessions:** Password hashing with bcryptjs
+- ⚡ **Performance:** Next.js optimizations and fast page loads
+
+## Project Structure
+
+```
+Bookstore/
+├── components/             # Reusable React components
+│   ├── NavBar.js          # Navigation component
+│   ├── LoginForm.js       # User authentication form
+│   ├── ProductList.js     # Product listing component
+│   ├── ProductDetail.js   # Individual product details
+│   ├── Footer.js          # Footer component
+│   └── context/           # React Context providers
+├── pages/                  # Next.js pages (file-based routing)
+│   ├── index.js           # Home page
+│   ├── about.js           # About page
+│   ├── products/          # Product pages
+│   ├── dashboard/         # User dashboard
+│   ├── api/               # API routes
+│   ├── _app.js            # App wrapper
+│   ├── _document.js       # HTML document wrapper
+│   └── 404.js             # Not found page
+├── lib/                    # Utility functions
+│   ├── auth.js            # Authentication logic
+│   └── contentfulClient.js # Contentful API client
+├── styles/                 # Global and module styles
+│   ├── globals.css        # Global styles
+│   ├── Home.module.css    # Home page styles
+│   └── index.css          # Additional styles
+├── public/                 # Static assets
+├── package.json           # Dependencies and scripts
+├── next.config.mjs        # Next.js configuration
+└── eslint.config.mjs      # ESLint configuration
+```
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
+- Node.js 18+ and npm/yarn/pnpm
+- Contentful account and API credentials
+- Environment variables configured
+
+### Installation
+
+1. Clone the repository
+2. Install dependencies:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Set up environment variables in `.env.local`:
+```
+NEXT_PUBLIC_CONTENTFUL_SPACE_ID=your_space_id
+NEXT_PUBLIC_CONTENTFUL_ACCESS_TOKEN=your_access_token
+JWT_SECRET=your_secret_key
+```
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### Development
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Start the development server:
+```bash
+npm run dev
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Build & Production
+
+Build for production:
+```bash
+npm run build
+npm start
+```
+
+### Linting
+
+Run ESLint to check code quality:
+```bash
+npm run lint
+```
+
+## API Routes
+
+- `POST /api/auth/login` - User login
+- `POST /api/auth/register` - User registration
+- `GET /api/products` - Fetch products from Contentful
+- `GET /api/products/[id]` - Get product details
+
+## Content Management
+
+Products and content are managed through Contentful CMS. Visit the Contentful dashboard to:
+- Add and manage books
+- Update product details
+- Manage categories and collections
+
+## Deployment
+
+### Deploy on Vercel (Recommended)
+
+The easiest way to deploy is using [Vercel Platform](https://vercel.com):
+
+1. Push code to GitHub/GitLab/Bitbucket
+2. Connect repository to Vercel
+3. Set environment variables in Vercel dashboard
+4. Deploy with one click
+
+See [Next.js Deployment Documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Contentful API Reference](https://www.contentful.com/developers/docs/)
+- [JWT Authentication](https://jwt.io)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+## License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+Academic project - Created for Durham College coursework
