@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "767074952318",
+    "project_id": "bytepcpartmarketplace",
+    "storage_bucket": "bytepcpartmarketplace.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:767074952318:android:1055f623dcb022d12fa42f",
+        "android_client_info": {
+          "package_name": "com.example.bytepcmarketplace"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBk9fUFlpcZrwblnLU3xCNy2AT-XfVPVpk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
