@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Bookstore Application
 
 A modern e-commerce bookstore built with Next.js, featuring JWT authentication, Contentful CMS integration, and a rich product catalog.
@@ -6,6 +7,34 @@ A modern e-commerce bookstore built with Next.js, featuring JWT authentication, 
 **Course:** INFT-3102  
 **Academic Year:** Fall 2025  
 **Institution:** Durham College
+=======
+Bookstore
+
+Description:
+
+A web application that allows users to browse and manage bookstore inventory.
+
+Technologies:
+- Next.js
+- React
+- JavaScript
+- Contentful
+- Git
+
+Features:
+- Book listing
+- Dynamic search
+- UI components
+- State management
+
+
+Authors:
+Noor Ghani & Buianto Sodnomov
+
+
+
+This is a project was developed by Noor Ghani and Buianto Sodnomov for INFT-3102 during the Fall 2025 semester at Durham College.
+>>>>>>> 0535b048eac0f8cbecd9cb6e655b168a77b19664
 
 
 ## Overview

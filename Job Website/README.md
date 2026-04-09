@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Job Website - Job Posting Platform
 
 A full-stack job posting and job search platform built with Laravel and Next.js, deployed using Docker and Docker Compose with PostgreSQL database.
@@ -296,3 +297,29 @@ Academic project - Created for Durham College coursework
 ## Support
 
 For issues, questions, or contributions related to this project, please contact the development team or create an issue in the repository.
+=======
+Job Website
+
+Description:
+
+A containerized web application that allows users to add and browse job listings.
+
+Technologies:
+- PHP
+- Laravel
+- Blade
+- Docker
+- PostgreSQL
+- Git
+
+Features:
+- Browse job listings
+- Add new listings
+- Login in and sign up
+
+
+Author:
+Noor Ghani
+
+This project was developed during the Fall 2024 semester at Durham College by Noor Ghani.
+>>>>>>> 0535b048eac0f8cbecd9cb6e655b168a77b19664
